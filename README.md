@@ -6,7 +6,7 @@ Its implementation consists of a tiny Shell script and a single HTML file.
 
 ## Usage
 Linux console command line:  
-utube <list of YouTube video IDs>
+```utube <list of YouTube video IDs>```
 
 Example:  
-utube 94IOUW0EQyg X5nTHwl0K_w kmYvyRDel04
+```utube 94IOUW0EQyg X5nTHwl0K_w kmYvyRDel04```
