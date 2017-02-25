@@ -1,0 +1,5 @@
+#!/bin/sh
+[ $# -eq 0 ] && { echo "Usage: $0 <list of YouTube video IDs>"; exit 1; }
+for video in $*; do
+   google-chrome --app="file://$0.html?video=$video"
+done
